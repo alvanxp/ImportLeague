@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ImportLeague.Api</name>
+    </assembly>
+    <members>
+        <member name="T:ImportLeague.Controllers.ImportLeaguesController">
+            <summary>
+            Import League
+            </summary>
+        </member>
+        <member name="M:ImportLeague.Controllers.ImportLeaguesController.Get(System.String)">
+            <summary>
+            Import League by Code
+            </summary>
+            <param name="leagueCode">League code</param>
+            <returns></returns>
+        </member>
+        <member name="T:ImportLeague.Api.Controllers.PlayersController">
+            <summary>
+            Players
+            </summary>
+        </member>
+        <member name="M:ImportLeague.Api.Controllers.PlayersController.Get(System.String)">
+            <summary>
+            Get Total number of players by League
+            </summary>
+            <param name="leagueCode"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ImportLeague.Api.Models.Result">
+            <summary>
+            Import League Result
+            </summary>
+        </member>
+        <member name="P:ImportLeague.Api.Models.Result.Message">
+            <summary>
+            Result message
+            </summary>
+        </member>
+    </members>
+</doc>
